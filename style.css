@@ -116,10 +116,19 @@ main {
 .login > p a {
     font-weight: 700;
     font-size:1rem;
+}
 
+.bg-desktop{
+    display: block;
+    width: 100%;
 }
 
 @media(min-width:1080px){
+    body{
+        display:flex ;
+    }
+    
+    
     header{
         background: none;
         justify-content:flex-start ;
@@ -127,7 +136,7 @@ main {
     }
 
     header img {
-        width:18rem ;
+        width:10rem ;
     }
 
     main {
